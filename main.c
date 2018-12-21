@@ -49,9 +49,9 @@ int print_usage(char * appname)
         printf(" Usage:              \n");
 		printf("   %s  -d device -e 1 -p 0 \n ",appname);
 		printf("\n");
-		printf("   Example Usage:   %s ttyUSB0 -s Speed -e 1 -p 0 \n",appname);
+		printf("   Example Usage:   %s /dev/ttyUSB0 -s Speed -e 1 -p 0 \n",appname);
 		printf("\n");
-		printf("           Where: -d device is port e.g.  ttyUSB0  \n");
+		printf("           Where: -d device is port e.g.  /dev/ttyUSB0  \n");
 		printf("                  -s Speed is port Speed  default is 115200 \n");
 		printf("                  -e ClockEdge is 0 or 1  default is 1 \n");
 		printf("                  -p Polarity  is 0 or 1  default is 0 \n");
